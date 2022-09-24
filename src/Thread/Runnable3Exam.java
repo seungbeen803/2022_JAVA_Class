@@ -21,7 +21,6 @@ public class Runnable3Exam {
         thd1.setName("new_a");
         thd2.setName("new_b");
         // 스레드 우선순위 지정
-        // 스레드 우선순위 지정
         thd1.setPriority(9);
         thd2.setPriority(Thread.MIN_PRIORITY);
         System.out.println(thd1.getPriority());
