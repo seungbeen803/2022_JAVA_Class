@@ -13,7 +13,6 @@ class Bank {
     }
 
     // 메서드 생성
-
     // 2. 입금
     public void saveMoney(int save) {
         int m = this.getMoney(); // 입금되어 있는 돈을 가져옴
